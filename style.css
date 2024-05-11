@@ -1,0 +1,62 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #F4F4F4;
+    color: #333333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #0066CC;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+main {
+    padding: 40px 0;
+}
+
+.about {
+    margin-bottom: 40px;
+}
+
+.about h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.about p {
+    margin-bottom: 20px;
+}
+
+.about ul {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.about ul li {
+    margin-bottom: 10px;
+}
+
+.about img {
+    display: block;
+    margin-top: 20px;
+    max-width: 100%;
+}
